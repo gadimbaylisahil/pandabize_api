@@ -7,6 +7,7 @@ describe OptionValue, type: :model do
 	
 	describe 'Relationships' do
 		it { is_expected.to belong_to(:option) }
+		it { is_expected.to have_many(:single_option_values) }
 		it { is_expected.to have_many(:variants).through(:single_option_values).dependent(:destroy) }
 	end
 end
