@@ -1,0 +1,3 @@
+class SingleOptionValue < ApplicationRecord
+	
+end
