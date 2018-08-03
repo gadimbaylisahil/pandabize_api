@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_03_195008) do
+ActiveRecord::Schema.define(version: 2018_08_03_195341) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,6 +38,13 @@ ActiveRecord::Schema.define(version: 2018_08_03_195008) do
     t.index ["bicycle_id"], name: "index_options_on_bicycle_id"
   end
 
+  create_table "single_option_values", force: :cascade do |t|
+    t.bigint "option_value_id", null: false
+    t.bigint "variant_id", null: false
+    t.index ["option_value_id"], name: "index_single_option_values_on_option_value_id"
+    t.index ["variant_id"], name: "index_single_option_values_on_variant_id"
+  end
+
   create_table "variants", force: :cascade do |t|
     t.string "sku"
     t.integer "price_cents", default: 0, null: false
@@ -49,5 +56,7 @@ ActiveRecord::Schema.define(version: 2018_08_03_195008) do
 
   add_foreign_key "option_values", "options"
   add_foreign_key "options", "bicycles"
+  add_foreign_key "single_option_values", "option_values"
+  add_foreign_key "single_option_values", "variants"
   add_foreign_key "variants", "bicycles"
 end
