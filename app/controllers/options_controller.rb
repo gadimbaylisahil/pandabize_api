@@ -36,6 +36,6 @@ class OptionsController < ApplicationController
 	end
 	
 	def option_params
-		params.require(:option).permit(:name, :bicycle_id)
+		params.require(:option).permit(:name)
 	end
 end
