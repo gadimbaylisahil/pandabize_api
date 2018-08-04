@@ -26,7 +26,7 @@ class VariantsController < ApplicationController
   end
 
   def find_variant
-    find_bicycle.variants.find_by(id: params[:id])
+    find_bicycle.variants.find_by!(id: params[:id])
   end
 
   def variant_params
