@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-	resources :bicycles
+	resources :bicycles do
+		resources :options
+	end
 end
