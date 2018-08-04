@@ -1,4 +1,5 @@
 require 'database_cleaner'
+require 'support/json_support'
 require 'simplecov'
 SimpleCov.start
 RSpec.configure do |config|
