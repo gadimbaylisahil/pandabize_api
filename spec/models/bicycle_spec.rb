@@ -9,4 +9,5 @@ describe Bicycle, type: :model do
 		it { is_expected.to have_many(:options).dependent(:destroy) }
 		it { is_expected.to have_many(:variants).dependent(:destroy) }
 	end
+	
 end

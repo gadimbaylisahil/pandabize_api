@@ -9,11 +9,6 @@ class OptionValuesController < ApplicationController
 		render json: OptionValueSerializer.new(option_value).serialized_json, status: :ok
 	end
 	
-	def create
-		option_value = find_option.option_values.create!(option_value_params)
-		render json: OptionValueSerializer.new(option_value).serialized_json, status: :created
-	end
-	
 	def destroy
 		find_option_value.destroy!
 		head(:no_content)
@@ -35,5 +30,9 @@ class OptionValuesController < ApplicationController
 	
 	def option_value_params
 		params.require(:option_value).permit(:name)
+	end
+	
+	def generate_variants
+		find_bicycle.generate_variants
 	end
 end

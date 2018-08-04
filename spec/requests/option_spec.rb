@@ -38,6 +38,13 @@ describe Option, type: :request do
 			expect(bicycle.options.last.name).to eq(valid_option_params["option"]["name"])
 		end
 		
+		it 'regenerates variants' do
+			valid_option_params = get_json(resource: 'option', filename: 'valid_params')
+			bicycle = FactoryBot.create(:bicycle)
+			post "/bicycles/#{bicycle.id}/options", params: valid_option_params
+			expect(bicycle.variants.where.not(is_initial: true).count).to eq(bicycle.options.last.option_values.count)
+		end
+		
 		it 'responds with option' do
 			valid_option_params = get_json(resource: 'option', filename: 'valid_params')
 			bicycle = FactoryBot.create(:bicycle)

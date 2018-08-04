@@ -1,5 +1,17 @@
 {
 	"option": {
-		"name": "Size"
+		"name": "Size",
+		"price_cents": 2000,
+		"option_values": [
+			{
+				"name": "Small"
+			},
+			{
+				"name": "Large"
+			},
+			{
+				"name": "Medium"
+			}
+		]
 	}
 }

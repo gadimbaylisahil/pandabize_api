@@ -1,6 +1,23 @@
 {
 	"bicycle": {
 		"name": "Night Rider",
-		"description": "Greates bicycle ever."
+		"description": "Greates bicycle ever.",
+		"price_cents": 2000,
+		"options": [
+			{
+				"name": "Size",
+				"option_values": [
+					{
+						"name": "Small"
+					},
+					{
+						"name": "Medium"
+					},
+					{
+						"name": "Large"
+					}
+				]
+			}
+		]
 	}
 }

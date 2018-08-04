@@ -37,6 +37,12 @@ describe Bicycle, type: :request do
 				expect(Bicycle.last.description).to eq(valid_bicycle_params["bicycle"]["description"])
 			end
 			
+			it 'creates the options with its filled values' do
+				valid_bicycle_params = get_json(resource: 'bicycle', filename: 'valid_params')
+				post '/bicycles', params: valid_bicycle_params
+				expect(Bicycle.last.options.count).to eq(valid_bicycle_params["bicycle"]["options"].count)
+			end
+			
 			it 'responds with bicycle' do
 				valid_bicycle_params = get_json(resource: 'bicycle', filename: 'valid_params')
 				post '/bicycles', params: valid_bicycle_params
