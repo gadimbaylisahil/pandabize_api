@@ -15,6 +15,16 @@ class BicyclesController < ApplicationController
 		render json: BicycleSerializer.new(bicycle).serialized_json, status: :created
 	end
 	
+	def update
+		find_bicycle.update!(bicycle_params)
+		head(:ok)
+	end
+	
+	def destroy
+		find_bicycle.destroy!
+		head(:no_content)
+	end
+	
 	private
 	
 	def find_bicycle
