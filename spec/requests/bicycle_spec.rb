@@ -15,6 +15,21 @@ describe Bicycle, type: :request do
 		end
 	end
 	
+	describe '#GET bicycles/:id' do
+		let!(:bicycle) { FactoryBot.create(:bicycle) }
+		before do
+			get "/bicycles/#{bicycle.id}"
+		end
+		
+		it 'responds with bicycle' do
+			expect(response.body).to eq(BicycleSerializer.new(bicycle).serialized_json)
+		end
+		
+		it 'responds with status code 200' do
+			expect(response.status).to eq(200)
+		end
+	end
+	
 	describe '#POST bicycles/' do
 		context 'when params are valid' do
 			let(:valid_bicycle_params) { get_json(resource: 'bicycle', filename: 'valid_params') }
