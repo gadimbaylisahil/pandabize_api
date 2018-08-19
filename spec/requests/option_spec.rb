@@ -53,7 +53,7 @@ describe Option, type: :request do
       expect(response.body).to eq(OptionSerializer.new(bicycle.options.last).serialized_json)
     end
 
-    it "responds with status code" do
+    it "responds with status code 201" do
       valid_option_params = get_json(resource: "option", filename: "valid_params")
       bicycle = FactoryBot.create(:bicycle)
       post "/bicycles/#{bicycle.id}/options", params: valid_option_params
