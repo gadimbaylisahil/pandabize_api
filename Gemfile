@@ -16,6 +16,8 @@ gem "puma", "~> 3.11"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
+# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+gem 'rack-cors'
 gem "fast_jsonapi"
 gem "oj"
 gem "rubocop", require: false
