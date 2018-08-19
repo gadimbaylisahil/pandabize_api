@@ -1,12 +1,13 @@
 class VariantsController < ApplicationController
+  before_action :generate_options, only: %i[index show]
   def index
-    variants = find_bicycle.variants
-    render json: VariantSerializer.new(variants).serialized_json, status: :ok
+    variants = find_bicycle.variants.count == 1 ? find_bicycle.variants : find_bicycle.variants.where(is_initial: false)
+    render json: VariantSerializer.new(variants, @options).serialized_json, status: :ok
   end
 
   def show
     variant = find_variant
-    render json: VariantSerializer.new(variant).serialized_json, status: :ok
+    render json: VariantSerializer.new(variant, @options).serialized_json, status: :ok
   end
 
   def update
@@ -20,6 +21,15 @@ class VariantsController < ApplicationController
   end
 
   private
+
+  def generate_options
+    @options = {}
+    if params[:included].present?
+      @options[:include] = params[:included].split(',').map do |included|
+        included.to_sym
+      end
+    end
+  end
 
   def find_bicycle
     Bicycle.find_by!(id: params[:bicycle_id])

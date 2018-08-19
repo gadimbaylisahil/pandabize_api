@@ -10,7 +10,7 @@ class OptionValuesController < ApplicationController
   end
 
   def destroy
-    find_option_value.destroy!
+    find_option_value.destroy
     head(:no_content)
   end
 

@@ -17,6 +17,20 @@
 						"name": "Large"
 					}
 				]
+			},
+			{
+				"name": "Color",
+				"option_values": [
+					{
+						"name": "Red"
+					},
+					{
+						"name": "Green"
+					},
+					{
+						"name": "Black"
+					}
+				]
 			}
 		]
 	}

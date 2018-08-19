@@ -2,6 +2,7 @@ class Bicycle < ApplicationRecord
   has_many :variants, inverse_of: :bicycle, dependent: :destroy
   has_many :options,  inverse_of: :bicycle, dependent: :destroy
 
+  validates :name, presence: true
   # Generates variants for the Bicycle.
   def generate_variants(price_cents = nil)
     initial_variant = variants.find_by(is_initial: true)
@@ -26,6 +27,10 @@ class Bicycle < ApplicationRecord
 
   def build_initial_variant(price_cents)
     variants.build(price_cents: price_cents, is_initial: true)
+  end
+
+  def price_cents
+    variants.first.price_cents
   end
 
   private
