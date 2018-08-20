@@ -5,4 +5,5 @@ Rails.application.routes.draw do
     end
 	  resources :variants, only: %i[index show update destroy]
   end
+  root to: "application#welcome"
 end
