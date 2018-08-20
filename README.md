@@ -1,24 +1,30 @@
-# README
+# pandabize_api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+PandabizeAPI is built to serve as a backend for the PandabizeFrontend application built in React.
+App demonstrates basic functionality to create Bicycles with Options which generates list of variants.
 
-Things you may want to cover:
+### Prerequisites
 
-* Ruby version
+Ruby 2.4
+Rails 5.2.1
+Postgresql 9.6+
 
-* System dependencies
+## Installation
 
-* Configuration
+Clone the repository and cd to the dir.
 
-* Database creation
+```
+ bundle install
+ bundle exec rails db:create
+ bundle exec rails db:migrate
+ RAILS_ENV=test bundle exec rails db:migrate
+```
 
-* Database initialization
+## API Documentation
+API Docs are available [here](https://documenter.getpostman.com/view/4361815/RWTpsGpo)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Running Tests
+```
+ bundle exec rspec
+```
