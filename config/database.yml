@@ -14,7 +14,4 @@ test:
   database: pandabize_api_test
 
 production:
-  <<: *default
-  database: pandabize_api_production
-  username: pandabize_api
-  password: <%= ENV['PANDABIZE_API_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
