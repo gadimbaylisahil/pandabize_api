@@ -8,6 +8,12 @@ class OptionValuesController < ApplicationController
     option_value = find_option_value
     render json: OptionValueSerializer.new(option_value).serialized_json, status: :ok
   end
+  
+  def update
+    option_value = find_option_value
+    option_value.update!(name: params[:option_value][:name])
+    head(:ok)
+  end
 
   def destroy
     find_option_value.destroy

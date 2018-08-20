@@ -1,7 +1,7 @@
 class Bicycle < ApplicationRecord
   has_many :variants, inverse_of: :bicycle, dependent: :destroy
   has_many :options,  inverse_of: :bicycle, dependent: :destroy
-
+  has_many :option_values, through: :options
   validates :name, presence: true
   # Generates variants for the Bicycle.
   def generate_variants(price_cents = nil)
