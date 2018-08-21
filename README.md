@@ -7,7 +7,7 @@ Demonstrates usage of API only application with object Serializers, Request and 
 
 ### Demo
 
-Frontend Application is deployed [here](pandabize.firebaseapp.com)
+Frontend Application is deployed [here](https://pandabize.firebaseapp.com)
 
 API is deployed [here](https://pandabizeapi.herokuapp.com)
 
