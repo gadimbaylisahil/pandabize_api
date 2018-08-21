@@ -5,6 +5,5 @@ class SingleOptionValue < ApplicationRecord
   after_destroy { |sov| sov.variant.destroy }
 
   validates :variant_id, presence: true
-  validates :option_value_id, presence: true
-  validates :option_value_id, uniqueness: { scope: :variant_id }
+  validates :option_value_id, presence: true, uniqueness: { scope: :variant_id }
 end

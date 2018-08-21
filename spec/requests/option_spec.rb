@@ -30,37 +30,6 @@ describe Option, type: :request do
     end
   end
 
-  describe "#POST /bicycles/:id/options" do
-    it "creates the option" do
-      valid_option_params = get_json(resource: "option", filename: "valid_params")
-      bicycle = FactoryBot.create(:bicycle)
-      post "/bicycles/#{bicycle.id}/options", params: valid_option_params
-      expect(bicycle.options.last.name).to eq(valid_option_params["option"]["name"])
-    end
-
-    it "regenerates variants" do
-      valid_option_params = get_json(resource: "option", filename: "valid_params")
-      bicycle = FactoryBot.create(:bicycle)
-      post "/bicycles/#{bicycle.id}/options", params: valid_option_params
-      variant_count = bicycle.variants.where.not(is_initial: true).count
-      expect(variant_count).to eq(bicycle.options.last.option_values.count)
-    end
-
-    it "responds with option" do
-      valid_option_params = get_json(resource: "option", filename: "valid_params")
-      bicycle = FactoryBot.create(:bicycle)
-      post "/bicycles/#{bicycle.id}/options", params: valid_option_params
-      expect(response.body).to eq(OptionSerializer.new(bicycle.options.last).serialized_json)
-    end
-
-    it "responds with status code 201" do
-      valid_option_params = get_json(resource: "option", filename: "valid_params")
-      bicycle = FactoryBot.create(:bicycle)
-      post "/bicycles/#{bicycle.id}/options", params: valid_option_params
-      expect(response.status).to eq(201)
-    end
-  end
-
   describe "#PATCH/PUT /bicycles/:id/options/:id" do
     it "updates the option" do
       valid_option_params = get_json(resource: "option", filename: "valid_params")
