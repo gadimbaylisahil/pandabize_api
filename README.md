@@ -1,7 +1,15 @@
 # pandabize_api
 
-PandabizeAPI is built to serve as a backend for the PandabizeFrontend application built in React.
-App demonstrates basic functionality to create Bicycles with Options which generates list of variants.
+PandabizeAPI is built to serve as a backend for the [Pandabize](https://github.com/gadimbaylisahil/pandabize_frontend) application built in React.
+App contains functionality to create Bicycles with Options which generates list of variants.
+
+Demonstrates usage of API only application with object Serializers, Request and Unit Tests.
+
+### Demo
+
+Frontend Application is deployed [here](pandabize.firebaseapp.com)
+
+API is deployed [here](https://pandabizeapi.herokuapp.com)
 
 ### Prerequisites
 
@@ -18,6 +26,14 @@ Clone the repository and cd to the dir.
  bundle exec rails db:create
  bundle exec rails db:migrate
  RAILS_ENV=test bundle exec rails db:migrate
+```
+
+## Using with React Frontend App
+
+This api is built to serve as a backend for PandabizeFrontend. In development PandabizeFronend are expecting backend to run at port 8081.
+
+```ruby
+  rails server -p8081
 ```
 
 ## API Documentation
