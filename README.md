@@ -11,6 +11,9 @@ Frontend Application is deployed [here](pandabize.firebaseapp.com)
 
 API is deployed [here](https://pandabizeapi.herokuapp.com)
 
+## API Documentation
+API Docs are available [here](https://documenter.getpostman.com/view/4361815/RWTpsGpo)
+
 ### Prerequisites
 
 Ruby 2.4
@@ -30,15 +33,11 @@ Clone the repository and cd to the dir.
 
 ## Using with React Frontend App
 
-This api is built to serve as a backend for PandabizeFrontend. In development PandabizeFronend are expecting backend to run at port 8081.
+This api is built to serve as a backend for PandabizeFrontend. In development PandabizeFrontend is expecting backend to run at port 8081.
 
 ```ruby
   rails server -p8081
 ```
-
-## API Documentation
-API Docs are available [here](https://documenter.getpostman.com/view/4361815/RWTpsGpo)
-
 
 ## Running Tests
 ```
