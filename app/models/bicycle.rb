@@ -19,13 +19,6 @@ class Bicycle < ApplicationRecord
     end
   end
 
-  # Regenerations only happens when option added after creation
-  def update_variants(option_value)
-    variants.where.not(is_initial: true).all.each do |variant|
-      variant.single_option_values.create!(option_value_id: option_value.to_param)
-    end
-  end
-
   def build_initial_variant(price_cents)
     variants.build(price_cents: price_cents, is_initial: true)
   end
