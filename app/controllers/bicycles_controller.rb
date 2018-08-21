@@ -13,7 +13,7 @@ class BicyclesController < ApplicationController
     bicycle = build_bicycle
     build_initial_variant(bicycle)
     build_options_and_save(bicycle)
-    generate_variants(bicycle)
+    bicycle.save!
     render json: BicycleSerializer.new(bicycle).serialized_json, status: :created
   end
 
@@ -38,15 +38,16 @@ class BicyclesController < ApplicationController
   end
 
   def build_options_and_save(bicycle)
-    if initial_bicycle_params[:options].any?
+    if initial_bicycle_params[:options] && initial_bicycle_params[:options].any?
       initial_bicycle_params[:options].each do |option|
         n_option = bicycle.options.build(name: option[:name])
         option[:option_values].each do |option_value|
           n_option.option_values.build(name: option_value[:name])
         end
       end
+      bicycle.save!
+      generate_variants(bicycle)
     end
-    bicycle.save!
   end
 
   def generate_variants(bicycle)

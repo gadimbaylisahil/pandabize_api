@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/models/bicycle_spec.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/models/bicycle_spec.rb": [
         1,
         1,
         1,
@@ -15,7 +15,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/rails_helper.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -67,18 +67,19 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/environment.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/application.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/application.rb": [
         1,
         null,
         1,
         null,
+        1,
         1,
         1,
         1,
@@ -111,13 +112,13 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/boot.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/boot.rb": [
         1,
         null,
         1,
         1
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/environments/test.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/environments/test.rb": [
         1,
         null,
         null,
@@ -160,7 +161,7 @@
         null,
         1
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/initializers/application_controller_renderer.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -170,7 +171,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/initializers/backtrace_silencers.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -179,7 +180,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/initializers/cors.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/initializers/cors.rb": [
         null,
         null,
         null,
@@ -197,13 +198,13 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/initializers/filter_parameter_logging.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/initializers/inflections.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -221,13 +222,13 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/initializers/mime_types.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/initializers/wrap_parameters.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -243,7 +244,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/factories/bicycle.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/factories/bicycle.rb": [
         1,
         1,
         44,
@@ -257,7 +258,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/factories/option.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/factories/option.rb": [
         1,
         1,
         1,
@@ -273,7 +274,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/factories/option_value.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/factories/option_value.rb": [
         1,
         1,
         1,
@@ -281,7 +282,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/factories/single_option_value.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/factories/single_option_value.rb": [
         1,
         1,
         1,
@@ -289,7 +290,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/factories/variant.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/factories/variant.rb": [
         1,
         1,
         1,
@@ -298,7 +299,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/config/routes.rb": [
+      "/Users/GWork/Desktop/pandabize_api/config/routes.rb": [
         1,
         1,
         1,
@@ -306,9 +307,10 @@
         null,
         1,
         null,
+        1,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/models/bicycle.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/models/bicycle.rb": [
         1,
         1,
         1,
@@ -375,56 +377,12 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/models/application_record.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/models/option_spec.rb": [
-        1,
-        1,
-        1,
-        2,
-        2,
-        null,
-        null,
-        1,
-        2,
-        2,
-        null,
-        null
-      ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/models/option.rb": [
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/models/option_value_spec.rb": [
-        1,
-        1,
-        1,
-        2,
-        2,
-        null,
-        null,
-        1,
-        2,
-        2,
-        2,
-        null,
-        null
-      ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/models/option_value.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null
-      ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/models/single_option_value_spec.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/models/option_spec.rb": [
         1,
         1,
         1,
@@ -438,19 +396,13 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/models/single_option_value.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
+      "/Users/GWork/Desktop/pandabize_api/app/models/option.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/models/variant_spec.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/models/option_value_spec.rb": [
         1,
         1,
         1,
@@ -465,7 +417,57 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/models/variant.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/models/option_value.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/GWork/Desktop/pandabize_api/spec/models/single_option_value_spec.rb": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null
+      ],
+      "/Users/GWork/Desktop/pandabize_api/app/models/single_option_value.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/GWork/Desktop/pandabize_api/spec/models/variant_spec.rb": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null
+      ],
+      "/Users/GWork/Desktop/pandabize_api/app/models/variant.rb": [
         1,
         1,
         null,
@@ -475,7 +477,7 @@
         1,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/requests/bicycle_spec.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/requests/bicycle_spec.rb": [
         1,
         1,
         1,
@@ -550,101 +552,6 @@
         1,
         1,
         null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/requests/option_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
         null,
         null,
         null,
@@ -663,7 +570,102 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/requests/option_value_spec.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/requests/option_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/GWork/Desktop/pandabize_api/spec/requests/option_value_spec.rb": [
         1,
         1,
         1,
@@ -720,7 +722,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/spec/requests/variant_spec.rb": [
+      "/Users/GWork/Desktop/pandabize_api/spec/requests/variant_spec.rb": [
         1,
         1,
         1,
@@ -791,7 +793,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/controllers/bicycles_controller.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/controllers/bicycles_controller.rb": [
         1,
         1,
         2,
@@ -839,8 +841,9 @@
         36,
         null,
         null,
-        null,
         4,
+        4,
+        null,
         null,
         null,
         1,
@@ -852,7 +855,7 @@
         null,
         null,
         1,
-        20,
+        24,
         null,
         null,
         1,
@@ -860,36 +863,40 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/controllers/application_controller.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/controllers/application_controller.rb": [
         1,
         1,
-        null
-      ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/controllers/concerns/exception_handler.rb": [
-        1,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
         null,
         1,
         0,
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/serializers/bicycle_serializer.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/controllers/concerns/exception_handler.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/GWork/Desktop/pandabize_api/app/serializers/bicycle_serializer.rb": [
         1,
         1,
         1,
@@ -905,7 +912,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/controllers/options_controller.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/controllers/options_controller.rb": [
         1,
         1,
         2,
@@ -967,7 +974,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/serializers/option_serializer.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/serializers/option_serializer.rb": [
         1,
         1,
         1,
@@ -978,7 +985,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/controllers/option_values_controller.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/controllers/option_values_controller.rb": [
         1,
         1,
         2,
@@ -1024,7 +1031,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/serializers/option_value_serializer.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/serializers/option_value_serializer.rb": [
         1,
         1,
         1,
@@ -1037,7 +1044,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/controllers/variants_controller.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/controllers/variants_controller.rb": [
         1,
         1,
         1,
@@ -1084,7 +1091,7 @@
         null,
         null
       ],
-      "/Users/sahilgadimbayli/Desktop/pandabize_api/app/serializers/variant_serializer.rb": [
+      "/Users/GWork/Desktop/pandabize_api/app/serializers/variant_serializer.rb": [
         1,
         1,
         1,
@@ -1097,6 +1104,6 @@
         null
       ]
     },
-    "timestamp": 1534800086
+    "timestamp": 1534867565
   }
 }
